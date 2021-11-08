@@ -1,0 +1,36 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ $red: rgb(200, 0, 0);
+
+#container {
+  margin: 200px auto;
+  width: 20%;
+}
+
+ #qbutton {
+   background-color: $red;
+   height: 38px;
+ }
+
+ #qbox {
+   border: 2px solid blue;
+   width: 200px;
+   height: 30px;
+ }
+
+#question {
+  color: green;
+  font-size: 30px;
+}
+
+#answer {
+  color: salmon;
+  font-size: 30px;
+}
+
+.link-back {
+  font-size: 100px;
+  color: orange;
+}
